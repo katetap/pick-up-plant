@@ -1,0 +1,11 @@
+<Page loaded="pageLoaded" class="page"  xmlns:lv="nativescript-ui-listview">
+	<FlexboxLayout class="fon">
+	    <StackLayout class="qws">	
+            <Label class="question" text="Планируете ли вы уделять время комнатными растениями?" textWrap="true"></Label>
+	        <StackLayout orientation="horizontal" horizontalAlignment="center">
+                <Button text="Да" tap="navigateYes" class="color font yn" />
+                <Button text="Нет" tap="navigateNo" class="color font yn"/>
+            </StackLayout>
+        </StackLayout>
+	</FlexboxLayout>
+</Page>

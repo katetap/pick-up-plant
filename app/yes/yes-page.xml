@@ -1,0 +1,31 @@
+<Page loaded="onPageLoaded" class="page" xmlns:lv="nativescript-ui-listview" navigatingTo="onNavigatingTo">   
+    
+    <ActionBar class="action-bar-label">
+            <Label text="Параметры"></Label>
+			<NavigationButton icon="~/images/back_v.png" tap="goBack" />         
+	</ActionBar>
+
+    <ScrollView>
+      <StackLayout> 
+            <GridLayout rows="50, auto, 50, auto,50, auto,50" columns="*, *" class="form" color="black"  >
+				<Label row="0" col="0" text="Тип комнаты" horizontalAlignment="left" class="label" />
+				<ListPicker row="0" col="1" items="{{ typeOfRoom }}" selectedIndex="0" loaded="onListPickerLoaded" color="black" />
+                <StackLayout row="1" col="0" colSpan="2" class="hr-light" />
+
+                <Label row="2" col="0" text="Количество окон в комнате" horizontalAlignment="left" class="label" textWrap="true"/>
+				<ListPicker row="2" col="1" items="{{ windowsCount }}" selectedIndex="0" loaded="onListPickerLoaded2" color="black" />
+                <StackLayout row="3" col="0" colSpan="2" class="hr-light" />
+        
+                <Label row="4" col="0" text="Солнечная сторона" horizontalAlignment="left" class="label" textWrap="true" />
+                <Switch row="4" col="1" checked="false" loaded="onSwitchLoaded"  backgroundColor="rgb(195, 0, 255)" color="white" horizontalAlignment="right"/>
+                <StackLayout row="5" col="0" colSpan="2" class="hr-light" />
+
+                <Label row="6" col="0" text="Предпочтения:" horizontalAlignment="left" class="label" />
+				<ListPicker row="6" col="1" items="{{ preferences }}" selectedIndex="0" loaded="onListPickerLoaded1" color="black"/>
+			</GridLayout>
+       
+            <Button  text="Подобрать"  tap="navigateList" class="color font"/>
+
+      </StackLayout>	
+    </ScrollView>
+</Page>

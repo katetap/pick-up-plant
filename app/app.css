@@ -1,0 +1,137 @@
+@import 'nativescript-theme-core/css/core.light.css';
+
+.grey {
+  background-color: #E8E8E8;
+  color: #000000
+}
+
+.white {
+  background-color: #FFFFFF;
+
+}
+
+.fon {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("~/images/background5.jpg");
+}
+  
+.form {
+  margin: 20;
+}
+
+.qws {
+  position: absolute;
+  width: 345pt;
+  height: 186pt;
+  margin: 450px 15px 15px;
+  border-radius: 15;
+}
+
+.bar{
+  width: 20;
+  height: 18;
+  
+}
+
+.f{
+  width: 20;
+  height:20;
+}
+
+.question {
+  margin: 3px;
+  font-family: 'Open Sans', 'OpenSans-Bold';
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.color {
+  color: rgb(195, 0, 255);
+}
+
+.scroll-view-separator {
+  background-color: #FFFFFF;
+  clip-path: polygon(0 75%, 100% 25%, 100% 100%, 0 100%);
+}
+
+.font{
+  font-size: 24px;
+  
+}
+
+.yn{
+  margin: 40px 130px 15px ;
+}
+
+.navItem{
+  width:24%;
+  text-align: center;
+}
+
+.action-bar {
+  background-color: #B5B5B5;
+  color: rgb(0, 0, 0);
+}
+
+.action-bar-label {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  background-color: #B5B5B5;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.item-name {
+  color: #303c47;
+  font-family: 'Open Sans', 'OpenSans-Bold';
+  font-weight: normal;
+  padding: 2;
+}
+
+.item-desc {
+  color: #303c47;
+  font-family: 'Open Sans', 'OpenSans-Regular';
+  padding: 2;
+}
+
+.item-price {
+  color: #c40404;
+  font-family: 'Open Sans', 'OpenSans-Bold';
+  font-weight: bold;
+  padding: 2;
+}
+
+.textdesc {
+  font-size: 13px;
+  color:#B5B5B5;
+}
+
+.hm{
+  margin-top: 120px;
+}
+
+.backgroundblur{
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url("~/images/.backgroundblur.jpg");
+}
+
+.tollbar{
+  position: absolute;
+  width: 375pt;
+  height: 44pt;
+  background-color: #E8E8E8;
+}
+
+.roompatemeters{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-family: 'Open Sans', 'OpenSans-Bold';
+  font-weight: normal;
+}
