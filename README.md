@@ -1,4 +1,4 @@
-![alt text](screenshots/logo.jpg) 
+![alt text](screenshots/logo2.jpg) 
 # Pick up Plant
 Приложение, которое поможет вам подобрать раcтения для вашего дома.
 
