@@ -14,7 +14,7 @@
 
 ## Скриншоты экрана
 
-![alt text](screenshots/screen_1.png)
-![alt text](screenshots/screen_2.png)
-![alt text](screenshots/screen_3.png)
-![alt text](screenshots/screen_4.png)
+![alt text](screenshots/screen_1.jpg)
+![alt text](screenshots/screen_2.jpg)
+![alt text](screenshots/screen_3.jpg)
+![alt text](screenshots/screen_4.jpg)
